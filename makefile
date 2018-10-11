@@ -8,7 +8,7 @@ driver.o: driver.c list.h
 	@gcc -c driver.c
 
 clean:
-	@rm *.o
+	@rm *.o*
 
 run:
 	@./list.out
